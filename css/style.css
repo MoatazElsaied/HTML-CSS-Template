@@ -1,0 +1,227 @@
+:root{
+
+    --color1:#47b5ed;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,1) !important;
+}
+.navbar-brand {
+    font-size: 2.5rem;
+    color: var(--color1) !important ;
+
+}
+.navbar-nav li i{
+    font-size: 2rem;
+    color: var(--color1) !important;
+
+}
+.icon{
+    border-radius: 50% !important;
+     display: inline;
+}
+@media (min-width:330px) and (max-width:992px){
+    .icon{
+        width: 15%;
+        text-align: center;
+        border-radius: 100px !important;
+    }
+}
+.cyber{
+    width: 100%;
+    height: 70vh;
+    background-color: var(--color1);
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width:330px) and (max-width:992px){
+    .cyber{
+    width: 100%;
+    display: block;
+}
+}
+.cyber h1{
+    padding-top: 150px;
+    padding-left: 100px;
+    color: #FFFF;
+    font-size: 3.5rem !important;
+}
+@media (min-width:330px) and (max-width:992px){
+    .cyber h1{
+    padding-top:100px;
+    padding-left: 100px;
+    color: #FFFF;
+    font-size: 2rem !important;
+}
+.cyber1 p{
+    padding-top: 20px;
+    font-weight: 200;
+    color: #FFFF;
+    font-size: 2rem !important;
+}
+}
+@media (min-width:330px) and (max-width:992px){
+.cyber .cyber1 p{
+    padding-top: 20px;
+    padding-left: 50px;
+    font-weight: 200;
+    color: #FFFF;
+    font-size: 2rem !important;
+}
+}
+
+.cyber1 p{
+    padding-top: 150px;
+    font-weight: 200;
+    color: #FFFF;
+    font-size: 2rem !important;
+}
+.card-deck .card-img-top{
+    border-radius: 25%;
+}
+.card{
+    border-radius: 50px !important;
+}
+.btn{
+    border-radius: 100px !important;
+    background-color: var(--color1) !important;
+}
+.btn:hover{
+    border-radius: 100px !important;
+    background-color: #FFFF !important;
+    color: var(--color1) !important;
+    border: 1px solid #47b5ed !important;
+}
+.images{
+    border-radius: 50px !important;
+
+}
+.security{
+    border-radius: 50px !important;
+    margin-left: 50px !important;
+}
+
+@media (min-width:330px) and (max-width:992px){
+    .security{
+         margin-left: 0 !important;
+    }
+}
+.History{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   
+}
+.History h6{
+ font-size: 2rem !important;
+    text-align: center;
+}
+@media (min-width:330px) and (max-width:992px){
+    .History{
+    width: 50px;
+    height: 20px;
+    border-radius: 50% !important;
+    font-size: 2rem !important;
+    text-align: center;
+}
+}
+.histry{
+    display: flex;
+    justify-content: start;
+}
+.back{
+    border-radius: 100px !important;
+}
+@media (min-width:330px) and (max-width:992px){
+   .back{
+    border-radius: 50px !important;
+} 
+}
+.card-body1 img{
+    border-radius: 50%;
+}
+.Awards{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    background-color: rgb(248, 248, 248) !important;
+}
+.Awards1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+}
+.Awards3{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.service{
+    position: relative;
+    border-radius: 50px !important;
+    margin-left: 50px !important;
+}
+@media (min-width:330px) and (max-width:992px){
+    .service{
+         margin-left: 0 !important;
+    }
+}
+.carousel{
+    margin-top: 100px;
+}
+.carousel-item img{
+    border-radius: 50%;
+}
+.carousel-inner{
+    border-radius: 100px;
+}
+.fas{
+    color: #47b5ed;
+}
+.fass{
+    text-align: end;
+    position: absolute;
+    bottom: 40px;
+    right: 15px;
+}
+.fass1,.fass2
+,.fass3{
+    text-align: center;
+    color: var(--color1);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.map{
+    border-radius: 50px;
+}
+
+.container ul li {
+    display: inline;
+}
+.container ul li a{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10px;
+    color:rgb(198, 199, 200);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer a i{
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(198, 199, 200);
+}
+#copyright{
+    color: rgb(198, 199, 200);
+}
